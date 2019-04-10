@@ -1,0 +1,2 @@
+/Users/lijialiang/soft/openjdk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lijialiang/soft/openjdk/cmake-build-debug/CMakeFiles/edit_cache.dir
