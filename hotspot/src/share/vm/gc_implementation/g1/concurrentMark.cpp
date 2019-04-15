@@ -1158,7 +1158,7 @@ public:
 
   CMConcurrentMarkingTask(ConcurrentMark* cm,
                           ConcurrentMarkThread* cmt) :
-      AbstractGangTask("Concurrent Mark"), _cm(cm), _cmt(cmt) { }
+                          AbstractGangTask("Concurrent Mark"), _cm(cm), _cmt(cmt) { }
 
   ~CMConcurrentMarkingTask() { }
 };

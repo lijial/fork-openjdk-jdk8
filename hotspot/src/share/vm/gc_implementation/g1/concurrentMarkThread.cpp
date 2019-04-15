@@ -87,10 +87,10 @@ void ConcurrentMarkThread::run() {
   G1MMUTracker *mmu_tracker = g1_policy->mmu_tracker();
   Thread *current_thread = Thread::current();
 
-  while (!_should_terminate) {
+  while (!_should_terminate) {  //false进来
     // wait until started is set.
-    sleepBeforeNextCycle();
-    if (_should_terminate) {
+    sleepBeforeNextCycle();    //true往下走
+    if (_should_terminate) {   //false往下走
       break;
     }
 
